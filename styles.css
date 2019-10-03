@@ -1,0 +1,85 @@
+
+    body {
+        background-color: rgb(151, 151, 211);
+        color: whitesmoke;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: left
+    }
+    main {
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgb(223, 126, 126);
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    header {
+        font-size: 10px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    h1 {
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    h2 {
+        color: rgb(57, 41, 95);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 26px;
+    }
+    p {
+        font-size: 20px;
+        color: rgb(245, 240, 240);
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    h2.section-headings {
+        color: rgb(57, 41, 95);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 26px
+    }
+
+    div {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
+
+    #first-picture {
+        padding:5px;
+        border:1px solid #e7e9ec;
+        background-color:rgb(206, 132, 132);
+    }
+
+    img {
+        border:2px solid #eceff5;
+        margin: 30px 50px 80px 50px
+    }
+
+    details {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }

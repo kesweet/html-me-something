@@ -5,66 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-    body {
-        background-color: rgb(151, 151, 211);
-        color: whitesmoke;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: left
-    }
-    h1 {
-        color: white;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: center
-    }
-    h2 {
-        color: rgb(57, 41, 95);
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: center;
-        font-size: 26px
-    }
-    p {
-        font-size: 20px;
-        color: rgb(245, 240, 240);
-        text-align: left;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    }
-
-    footer {
-        position: fixed;
-        bottom: 0px;
-        font-size: 16px;
-        width: 100%;
-        text-align: center
-    }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
 <body>
+
     <footer>
         <br><br><br>
-        Webpage updated 10-2-19
+        Webpage updated 10-3-19
     </footer>
 
     <header align="center">
-        My First Webpage
+        <br>
+        &copy; Copyright Katherine Sweet 2019
     </header>
 
-    <main>
+
     <h1>
         Katherine Sweet's Favorite Hobbies
         <br><br>
     </h1>
 
-    <center>
+    <center id="first-picture">
         <img src="./images/Sweet.jpg" width="230" height="250" alt="Katherine Sweet">
     </center>
     
     <br><br>
 
-    <h2>
+    <main>
+    <h2 class="section-headings">
         Snow Skiing
     </h2>
 
@@ -77,19 +48,24 @@
             I love to snow ski. I have been skiing in several states across the US, beginning when I was 3 years old. Below are pictures of me and my sister Samantha, as well as me with my boyfriend, Tyler, whom I taught to ski a few years ago (now he is better than I am!).
         </p>
         </article>
-        <br><br>
     </details>
 
     <details>
         <summary>
             Pictures of Skiing
          </summary>
-         <img src="./images/Snow Skiing1.jpg" width="230" height="250" alt="My sister and I skiing when we were little">
-         <img src="./images/Snow Skiing2.jpg" width="320" height="250" alt="Me learning how to snowboard for the first time. I spent my whole childhood skiing and didn't try to snowboard until I was 20!">
+
+         <!-- <div> -->
+            <img src="./images/Snow Skiing1.jpg" width="230" height="250" alt="My sister and I skiing when we were little">
+         <!-- </div> -->
+
+         <!-- <div> -->
+            <img src="./images/Snow Skiing2.jpg" width="320" height="250" alt="Me learning how to snowboard for the first time. I spent my whole childhood skiing and didn't try to snowboard until I was 20!">
+        <!-- </div> -->
     </details>
      
 
-    <h2>
+    <h2 class="section-headings">
         Biking and Running
     </h2>
     
@@ -108,12 +84,19 @@
         <summary>
             Pictures of Biking and Running
         </summary>
-        <img src="./images/Biking1.jpeg" width="270" height="250" alt="Moon and I biking through Forest Park">
-        <img src="./images/Biking2.jpeg" width="230" height="250" alt="Moon swimming at the park in the middle of a long run">
+
+        <!-- <div> -->
+        
+            <img src="./images/Biking1.jpeg" width="270" height="250" alt="Moon and I biking through Forest Park">
+        <!-- </div> -->
+
+        <!-- <div> -->
+            <img src="./images/Biking2.jpeg" width="230" height="250" alt="Moon swimming at the park in the middle of a long run">
+        <!-- </div> -->
     </details>
  
 
-    <h2>
+    <h2 class="section-headings">
         Travel
     </h2>
 
@@ -141,7 +124,7 @@
         <img src="./images/Travel7.jpeg" width="230" height="250" alt="Moon, Tyler, and me at the beach relaxing">
         <br><br>
     </details>
-  
+
 </main>
 
 
